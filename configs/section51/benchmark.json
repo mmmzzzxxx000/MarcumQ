@@ -1,0 +1,45 @@
+{
+  "orders": [
+    1,
+    10,
+    20
+  ],
+  "a_grid": [
+    0.5,
+    20,
+    0.5
+  ],
+  "b_grid": [
+    0.5,
+    20,
+    0.5
+  ],
+  "languages": [
+    "python",
+    "cpp",
+    "fortran"
+  ],
+  "target_relative_error": 1e-10,
+  "setting_limits": {
+    "se": [
+      0,
+      1000
+    ],
+    "af": [
+      1,
+      100
+    ],
+    "ni": [
+      0,
+      10
+    ],
+    "se_rr": [
+      1,
+      1000
+    ]
+  },
+  "repeats": 5,
+  "bound_switch": 0.998,
+  "bound_limit": 1000,
+  "af_diagonal": "SE"
+}

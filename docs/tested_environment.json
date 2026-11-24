@@ -1,0 +1,10 @@
+{
+  "platform": "Windows x86-64",
+  "python": "3.7.0",
+  "numpy": "1.21.6",
+  "scipy": "1.1.0",
+  "mpmath": "1.0.0",
+  "matplotlib": "2.2.3",
+  "gfortran": "GNU Fortran 13.2.0 MinGW-w64",
+  "note": "Recorded environment; install a supported modern Python environment for a new installation."
+}

@@ -1,0 +1,25 @@
+{
+  "algorithm": 939,
+  "authors": [
+    "Amparo Gil",
+    "Javier Segura",
+    "Nico M. Temme"
+  ],
+  "citation": "ACM TOMS 40(3), Article 20 (2014), DOI 10.1145/2591004",
+  "download_url": "https://calgo.acm.org/939.zip",
+  "index_url": "https://calgo.acm.org/",
+  "archive_sha256": "dbf77461a9c02c603f8eb2bfcfcef6e3d1cfbb7d628b54b18f79c4a7e62af9e4",
+  "upstream_files": {
+    "939/Doc/Makefile": "779eb67e0f56e5866d5f7db06bc39fe08928f954e96f007ab8f1be2d3a909e2a",
+    "939/Doc/README": "b02bc5c3830b21afd6d258b283c6963de1dfab211d6e777cbbf1d833d7f898ca",
+    "939/Fortran90/Src/marcumq.f90": "737bc21fb023723065c8b4e4284ee3dc4c67f393b3fd5c87c887f59184055d05",
+    "939/Fortran90/Src/incgam.f90": "5c73455b77a07a57ff0476951735c1a099cfe0b89a988478b2587ec18f2e0b19",
+    "939/Fortran90/Src/constants": "b57798ea7a48294a197d47e2cd915ab4e953d25c27b9e1467b7f40a6ba67203c",
+    "939/Fortran90/Src/cons.f90": "1f20b8041dd998ad9165cf0646f6e9a1df97c1d41bca2f0130df700db505984c",
+    "939/Fortran90/Drivers/outputQP.dat": "48bb23a7168bded4012ba5a1765f4478b4de86b2fc9522ab99631c5bd9fc61fa",
+    "939/Fortran90/Drivers/testmarq.f90": "21b863f38dc6e170c5a575c4cf90a6eb960f1c61667ebb84e4adcb3b51714738",
+    "939/939.head": "4d1c61827d528fe0f11742ac144e5fee8c2a894a948ceb3a292d75e86ba5d14a"
+  },
+  "license_url": "https://www.acm.org/publications/policies/software-copyright-notice",
+  "license_note": "Upstream is subject to the ACM Software Copyright and License Agreement; no relicensing is applied."
+}

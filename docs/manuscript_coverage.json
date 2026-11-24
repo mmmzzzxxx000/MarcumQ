@@ -1,0 +1,90 @@
+{
+  "manuscript": "MarcumQ_R1_V3.tex",
+  "images": [
+    {
+      "manuscript_file": "ab_nu1.pdf",
+      "generated": "results/figures/section2/ab_nu1.pdf"
+    },
+    {
+      "manuscript_file": "ab_nu20.pdf",
+      "generated": "results/figures/section2/ab_nu20.pdf"
+    },
+    {
+      "manuscript_file": "u_n.pdf",
+      "generated": "results/figures/section3/u_n.pdf"
+    },
+    {
+      "manuscript_file": "B_bound_nu1_10_20.pdf",
+      "generated": "results/figures/section4/B_bound_nu1_10_20.pdf"
+    },
+    {
+      "manuscript_file": "timing_full_plane_nu1.pdf",
+      "generated": "results/figures/section51/heatmap_language_scales_nu1.pdf"
+    },
+    {
+      "manuscript_file": "timing_full_plane_nu10.pdf",
+      "generated": "results/figures/section51/heatmap_language_scales_nu10.pdf"
+    },
+    {
+      "manuscript_file": "timing_full_plane_nu20.pdf",
+      "generated": "results/figures/section51/heatmap_language_scales_nu20.pdf"
+    },
+    {
+      "manuscript_file": "hybrid_timing_nu1.pdf",
+      "generated": "results/figures/section52/grid/hybrid_timing_nu1.pdf"
+    },
+    {
+      "manuscript_file": "hybrid_timing_nu20.pdf",
+      "generated": "results/figures/section52/grid/hybrid_timing_nu20.pdf"
+    },
+    {
+      "manuscript_file": "fortran_random_speedup.png",
+      "generated": "results/figures/section52/random/fortran_random_speedup.png"
+    }
+  ],
+  "tables": [
+    {
+      "label": "tab:cancellation-examples",
+      "code": "experiments/section4/cancellation.py",
+      "record": "data/section4/cancellation.json"
+    },
+    {
+      "label": "tab:individual-method-timing",
+      "code": "experiments/section51/run.py",
+      "record": "data/section51"
+    },
+    {
+      "label": "tab:cdf_time",
+      "code": "experiments/section61/run.py",
+      "record": "data/section61"
+    }
+  ],
+  "text_results": [
+    {
+      "section": "5.2 random timing",
+      "command": "random-timing",
+      "record": "data/section52/random"
+    },
+    {
+      "section": "5.3 random accuracy",
+      "command": "section53",
+      "record": "data/section53"
+    },
+    {
+      "section": "6.2 outage",
+      "command": "outage",
+      "record": "data/section62"
+    }
+  ],
+  "additional_checks": [
+    "recurrence",
+    "cancellation"
+  ],
+  "excluded": "Response-only component profiling and single-point explanation figures.",
+  "manuscript_sha256": "2464f145742beaec211c464473e23005a5aed561ef7b02b9c70d830a153004ea",
+  "interfaces": {
+    "python": "src/python/marcum/hybrid.py",
+    "cpp": "src/cpp/hybrid.cpp",
+    "fortran": "src/fortran/hybrid.f90"
+  }
+}

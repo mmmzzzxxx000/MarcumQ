@@ -1,0 +1,26 @@
+authors: &id001
+- family-names: Mao
+  given-names: Zhong-Xuan
+- family-names: Tian
+  given-names: Jing-Feng
+cff-version: 1.2.0
+message: If you use SE-RR, the hybrid algorithm, or the accompanying experiments,
+  please cite the paper below. Cite Algorithm 939 and GammaCHI separately when you
+  use their components.
+preferred-citation:
+  authors: *id001
+  date-published: '2026-11-22'
+  identifiers:
+  - description: arXiv preprint identifier
+    type: other
+    value: arXiv:2611.29209
+  journal: arXiv
+  title: Efficient numerical computation of the generalized Marcum Q-function with
+    applications
+  type: article
+  url: https://arxiv.org/abs/2611.29209
+  year: '2026'
+title: 'Marcum SE-RR: research code for the generalized Marcum Q-function'
+type: software
+url: https://arxiv.org/abs/2611.29209
+version: 1.0.0-rc1

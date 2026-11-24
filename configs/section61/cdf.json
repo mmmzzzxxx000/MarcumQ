@@ -1,0 +1,60 @@
+{
+  "protocol": "application1_direct_cdf_equal_accuracy_v1",
+  "target_rtol": "1e-10",
+  "languages": [
+    "fortran"
+  ],
+  "methods": [
+    "se",
+    "se_rr"
+  ],
+  "modes": [
+    "scalar",
+    "batch"
+  ],
+  "points": 1000,
+  "b_range": [
+    0,
+    5
+  ],
+  "cases": [
+    {
+      "id": "CDF_1",
+      "nu": 1.0,
+      "a": 0.5
+    },
+    {
+      "id": "CDF_2",
+      "nu": 1.0,
+      "a": 2.0
+    },
+    {
+      "id": "CDF_3",
+      "nu": 3.0,
+      "a": 1.0
+    },
+    {
+      "id": "CDF_4",
+      "nu": 1.5,
+      "a": 3.0
+    },
+    {
+      "id": "CDF_5",
+      "nu": 2.0,
+      "a": 5.0
+    },
+    {
+      "id": "CDF_6",
+      "nu": 3.0,
+      "a": 4.0
+    }
+  ],
+  "search": {
+    "se_first": 0,
+    "serr_first": 1,
+    "last": 1000
+  },
+  "samples": 7,
+  "target_sample_seconds": 0.02,
+  "authorization": "User approved plan on 2026-10-30. Scalar/scalar and batch/batch; direct CDF; both reuse b-independent preparation; numerical preparation included once per timed curve; references and calibration excluded."
+}

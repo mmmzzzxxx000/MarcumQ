@@ -1,0 +1,64 @@
+PURPOSE:
+=========
+
+This is a package for the inversion and computation of 
+the gamma and chi-square cumulative distribution functions (central and noncentral).
+The package includes also routines for the computation of the error function, the
+gamma function and other functions related to the gamma (the logarithm of the 
+gamma function, the regulated gamma function and the ratio of two gamma functions).
+
+
+THIS PACKAGE CONTAINS THE FOLLOWING FILES: 
+==========================================
+ 
+1.  cons.f90           Includes the module Someconstants for internal 
+                       global parameters
+
+2.  constants          Data file for the module Someconstants 
+                    
+3.  gammaCHI.f90       Includes the module GammaCHI with the public routines
+                       cdfgamC, invcdfgamC, cdfgamNC, invcdfgamNC, 
+                       errorfunction, inverfc, gamma, loggam,  gamstar and 
+                       quotgamm for the computation of the central gamma distribution 
+                       function (and its complementary function), the inversion of the central gamma 
+                       distribution function, the computation of the noncentral 
+                       gamma distribution function (and its complementary function), 
+                       the inversion of the noncentral gamma distribution function, 
+                       the computation of the error function and its complementary
+                       function, the inversion of the complementary error function, 
+                       the computation of: the gamma function, the logarithm of the 
+                       gamma function, the regulated gamma function and
+                       the ratio of two gamma functions, respectively.
+                     
+4.  testgamCHI.f90     Test program for the module GammaCHI
+
+5.  testGammaCHI.dat   Expected results file 
+
+6.  Makefile           "Make" file, including compiler/linker commands. 
+
+
+Here is an example set of compiler/linker commands for building
+the programs using the GNU Fortran compiler g95. 
+Options: -c compile to object code -- don't make executable
+ 
+g95 -c cons.f90   
+g95 -c gammaCHI.f90
+g95 -c testgamCHI.f90 
+g95 cons.o gammaCHI.o testgamCHI.o -o testgamCHI
+
+where testgamCHI is the name of the executable file.
+Basically the first two files are compiled as object code libraries, and
+then a program using gammaCHI (testgamCHI) is compiled and linked 
+to those libraries.
+To run the program, type,
+./testgamCHI
+
+
+=====================================================
+Authors:
+Amparo Gil    (U. Cantabria, Santander, Spain)
+                 e-mail: amparo.gil@unican.es
+Javier Segura (U. Cantabria, Santander, Spain)
+                 e-mail: javier.segura@unican.es
+Nico M. Temme (CWI, Amsterdam, The Netherlands)
+                 e-mail: nico.temme@cwi.nl
