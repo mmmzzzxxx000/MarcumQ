@@ -1,0 +1,35 @@
+{
+  "complete": true,
+  "issues": [],
+  "rows_recounted": 57600,
+  "qualified": 48350,
+  "original_grid_preserved": true,
+  "all_selected_values_rechecked": true,
+  "all_five_batch_medians_recomputed": true,
+  "raw_kernel_hashes_unchanged": true,
+  "references_reused": "Audited 50/80-digit defining Bessel integrals at every selected grid point.",
+  "power": {
+    "complete": true,
+    "evaluations": 57600,
+    "qualified": 48350,
+    "power_before": {
+      "ac_connected": true,
+      "battery_percent": 100,
+      "source": "GetSystemPowerStatus"
+    },
+    "power_after": {
+      "ac_connected": true,
+      "battery_percent": 100,
+      "source": "GetSystemPowerStatus"
+    },
+    "publication_timing_allowed": true
+  },
+  "python": "3.7.0 (default, Jun 28 2018, 08:04:48) [MSC v.1912 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19041-SP0",
+  "artifact_sha256": {
+    "calibration.jsonl": "7c08dd312ae45cdd3716231812e75328d126078c994fc877f6fd4fed96832697",
+    "timings.jsonl": "fe66edc961eb876b2f5d38e987a2787620eb13c075161a2b8ba6922b60c87633",
+    "summary.json": "9d62822c69d50eed0b3ecc88cd42c669732f9ee1c8fc5d6440f3439d72404714"
+  },
+  "scope": "Four raw methods across the finite 0.5:0.5:20 grid, not a whole-domain convergence proof."
+}

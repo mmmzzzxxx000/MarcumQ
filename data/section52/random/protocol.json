@@ -1,0 +1,31 @@
+{
+  "seed": 2026111702,
+  "count": 10000000,
+  "low": [
+    0.01,
+    0.001,
+    1.0
+  ],
+  "high": [
+    100.0,
+    100.0,
+    1000.0
+  ],
+  "distribution": "independent log-uniform",
+  "reference": "C++ x87 extended-precision defining Bessel integral; probability bound for Q near one",
+  "comparison": "Fortran evaluation at the first tested setting meeting 1e-10 relative error; routing excluded",
+  "target_relative_error": 1e-10,
+  "methods": [
+    "SE",
+    "AF",
+    "NI",
+    "SE-RR",
+    "RR",
+    "AF-large-nu"
+  ],
+  "chunk_size": 100000,
+  "binaries": {
+    "reference.dll": "852e9e29a5309ee99aa62ef960396cfa837b6bec98d56a32f2f79dc06bcc2918",
+    "measure.dll": "14970d8062e9cd4ca599dfb8a9cf0074a25f12169a9fc784e0e46209b320a094"
+  }
+}

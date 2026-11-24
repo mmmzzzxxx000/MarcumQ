@@ -1,0 +1,80 @@
+{
+  "complete": true,
+  "issues": [],
+  "reference_points": 6400,
+  "all_regions_use_same_neutral_reference": true,
+  "reference_max_relative_configuration_difference": "2.578513663331028778001447e-35",
+  "raw_outputs_recomputed": 12752,
+  "maximum_qualified_error": "9.99949119631781135447706230998e-11",
+  "all_prior_counts_tested": true,
+  "all_medians_checked": true,
+  "groups": {
+    "all_common": {
+      "points": 6376,
+      "baseline_mean_us": 2.059906646345303,
+      "updated_mean_us": 1.7987710606349838,
+      "speedup": 1.145174442387424
+    },
+    "b_le_7": {
+      "points": 2240,
+      "baseline_mean_us": 1.1558984802120469,
+      "updated_mean_us": 0.4130768169778529,
+      "speedup": 2.798265195972061
+    },
+    "updated_SE_RR": {
+      "points": 2031,
+      "baseline_mean_us": 1.122811911958983,
+      "updated_mean_us": 0.30369238692368716,
+      "speedup": 3.6972013797669776
+    },
+    "same_method": {
+      "points": 4345,
+      "baseline_mean_us": 2.4979364289778956,
+      "updated_mean_us": 2.4976214142155695,
+      "speedup": 1.0001261259054448
+    }
+  },
+  "method_transitions": {
+    "SE -> SE-RR": {
+      "points": 631,
+      "baseline_mean_us": 1.174204945715186,
+      "updated_mean_us": 0.32406691597312925,
+      "speedup": 3.623341007178122
+    },
+    "NI -> SE-RR": {
+      "points": 1400,
+      "baseline_mean_us": 1.099648337458866,
+      "updated_mean_us": 0.29450929561640293,
+      "speedup": 3.73383235716659
+    },
+    "SE -> SE": {
+      "points": 1769,
+      "baseline_mean_us": 1.1207023102116809,
+      "updated_mean_us": 1.1215350272270146,
+      "speedup": 0.9992575202779065
+    },
+    "NI -> NI": {
+      "points": 1334,
+      "baseline_mean_us": 3.1727161004145668,
+      "updated_mean_us": 3.1719508151617344,
+      "speedup": 1.0002412664311107
+    },
+    "RR -> RR": {
+      "points": 250,
+      "baseline_mean_us": 16.236286398068625,
+      "updated_mean_us": 16.231085060105702,
+      "speedup": 1.0003204553450162
+    },
+    "AF -> AF": {
+      "points": 992,
+      "baseline_mean_us": 0.584210201284581,
+      "updated_mean_us": 0.5836854124494769,
+      "speedup": 1.000899095341276
+    }
+  },
+  "source_sha256": {
+    "experiments\\reproduce_hybrid_fig3.py": "3e55d4c8c87dc892cdf6cea1bbb6d21a6a3ec95508ee743ff8a802fc91ade14f",
+    "experiments\\hybrid_runtime.py": "6b7760ff5f246b19769247585f3cfe3c44bd136e8e090826e3054bc6eb386e64",
+    "validation\\audit_selected_hybrid.py": "6d5c7aad784f3a65173f38061b069078094323142e1a213fc811ccc023d03cb3"
+  }
+}

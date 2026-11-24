@@ -1,0 +1,250 @@
+{
+  "summary": [
+    {
+      "language": "python",
+      "nu": 1,
+      "paired_qualified": 1600,
+      "failed": [
+        0,
+        0
+      ],
+      "ratio_of_means": 1.1849178240969014,
+      "methods": [
+        {
+          "se": 625,
+          "ni": 106,
+          "af": 869
+        },
+        {
+          "se_rr": 418,
+          "se": 532,
+          "af": 650
+        }
+      ]
+    },
+    {
+      "language": "python",
+      "nu": 10,
+      "paired_qualified": 1600,
+      "failed": [
+        0,
+        0
+      ],
+      "ratio_of_means": 1.2187556612038442,
+      "methods": [
+        {
+          "se": 625,
+          "ni": 182,
+          "af": 793
+        },
+        {
+          "se_rr": 421,
+          "se": 529,
+          "af": 650
+        }
+      ]
+    },
+    {
+      "language": "python",
+      "nu": 20,
+      "paired_qualified": 1600,
+      "failed": [
+        0,
+        0
+      ],
+      "ratio_of_means": 1.0493856007053466,
+      "methods": [
+        {
+          "se": 612,
+          "ni": 676,
+          "rr": 60,
+          "af": 252
+        },
+        {
+          "se_rr": 441,
+          "se": 495,
+          "ni": 347,
+          "rr": 65,
+          "af": 252
+        }
+      ]
+    },
+    {
+      "language": "cpp",
+      "nu": 1,
+      "paired_qualified": 1600,
+      "failed": [
+        0,
+        0
+      ],
+      "ratio_of_means": 1.3529420593765054,
+      "methods": [
+        {
+          "se": 625,
+          "ni": 106,
+          "af": 869
+        },
+        {
+          "se_rr": 418,
+          "se": 532,
+          "af": 650
+        }
+      ]
+    },
+    {
+      "language": "cpp",
+      "nu": 10,
+      "paired_qualified": 1600,
+      "failed": [
+        0,
+        0
+      ],
+      "ratio_of_means": 1.2990608297630994,
+      "methods": [
+        {
+          "se": 625,
+          "ni": 182,
+          "af": 793
+        },
+        {
+          "se_rr": 421,
+          "se": 529,
+          "af": 650
+        }
+      ]
+    },
+    {
+      "language": "cpp",
+      "nu": 20,
+      "paired_qualified": 1600,
+      "failed": [
+        0,
+        0
+      ],
+      "ratio_of_means": 1.0575903553682058,
+      "methods": [
+        {
+          "se": 612,
+          "ni": 676,
+          "rr": 60,
+          "af": 252
+        },
+        {
+          "se_rr": 441,
+          "se": 495,
+          "ni": 347,
+          "rr": 65,
+          "af": 252
+        }
+      ]
+    },
+    {
+      "language": "fortran",
+      "nu": 1,
+      "paired_qualified": 1600,
+      "failed": [
+        0,
+        0
+      ],
+      "ratio_of_means": 1.327027948644215,
+      "methods": [
+        {
+          "se": 625,
+          "ni": 106,
+          "af": 869
+        },
+        {
+          "se_rr": 418,
+          "se": 532,
+          "af": 650
+        }
+      ]
+    },
+    {
+      "language": "fortran",
+      "nu": 10,
+      "paired_qualified": 1600,
+      "failed": [
+        0,
+        0
+      ],
+      "ratio_of_means": 1.2687456507807937,
+      "methods": [
+        {
+          "se": 625,
+          "ni": 182,
+          "af": 793
+        },
+        {
+          "se_rr": 421,
+          "se": 529,
+          "af": 650
+        }
+      ]
+    },
+    {
+      "language": "fortran",
+      "nu": 20,
+      "paired_qualified": 1600,
+      "failed": [
+        0,
+        0
+      ],
+      "ratio_of_means": 1.0518954580388387,
+      "methods": [
+        {
+          "se": 612,
+          "ni": 676,
+          "rr": 60,
+          "af": 252
+        },
+        {
+          "se_rr": 441,
+          "se": 495,
+          "ni": 347,
+          "rr": 65,
+          "af": 252
+        }
+      ]
+    }
+  ],
+  "power_before": {
+    "ac_connected": true,
+    "battery_percent": 100,
+    "source": "GetSystemPowerStatus"
+  },
+  "power_after": {
+    "ac_connected": true,
+    "battery_percent": 100,
+    "source": "GetSystemPowerStatus"
+  },
+  "publication_timing_allowed": true,
+  "reference": "Section 5.1 audited defining Bessel integral, target relative error 1e-10",
+  "timing": "Median of five batches; routing, bound, calibration, references and accuracy checks excluded. Identical workloads shared between strategies.",
+  "diagonal": "Both strategies switch points with a=b otherwise assigned to AF to SE.",
+  "rr": "Original 939 Fortran branch and its separate Python and C++ ports; native language seed evaluation timed.",
+  "unique_workloads": 18693,
+  "failures": [],
+  "cpp_compile_command": [
+    "C:/Strawberry/c/bin/g++.exe",
+    "-O3",
+    "-fno-fast-math",
+    "-ffp-contract=off",
+    "-std=c++17",
+    "-shared",
+    "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-27\\new-chat\\work\\hybrid_heatmaps_20261109\\components_rr.cpp",
+    "-I",
+    "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-27\\new-chat\\marcum-se-rr\\native\\cpp",
+    "-I",
+    "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-27\\new-chat\\marcum-se-rr\\native\\include",
+    "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-27\\new-chat\\marcum-se-rr\\native\\cpp\\paper_algorithm1.cpp",
+    "-static-libgcc",
+    "-static-libstdc++",
+    "-o",
+    "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-27\\new-chat\\work\\hybrid_heatmaps_20261109\\rr_port.dll"
+  ],
+  "inputs_sha256": {
+    "calibration.jsonl": "7c08dd312ae45cdd3716231812e75328d126078c994fc877f6fd4fed96832697",
+    "audit.json": "e4293f77b0d4d3fd38695888a1e68f623c09c26285c91a0145b8e5daef04b555"
+  }
+}

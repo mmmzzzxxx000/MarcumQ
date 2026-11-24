@@ -1,0 +1,275 @@
+{
+  "metadata": {
+    "seed": 2026111702,
+    "count": 10000000,
+    "low": [
+      0.01,
+      0.001,
+      1.0
+    ],
+    "high": [
+      100.0,
+      100.0,
+      1000.0
+    ],
+    "distribution": "independent log-uniform",
+    "reference": "C++ x87 extended-precision defining Bessel integral; probability bound for Q near one",
+    "comparison": "Fortran evaluation at the first tested setting meeting 1e-10 relative error; routing excluded",
+    "target_relative_error": 1e-10,
+    "methods": [
+      "SE",
+      "AF",
+      "NI",
+      "SE-RR",
+      "RR",
+      "AF-large-nu"
+    ],
+    "chunk_size": 100000,
+    "binaries": {
+      "reference.dll": "852e9e29a5309ee99aa62ef960396cfa837b6bec98d56a32f2f79dc06bcc2918",
+      "measure.dll": "14970d8062e9cd4ca599dfb8a9cf0074a25f12169a9fc784e0e46209b320a094"
+    }
+  },
+  "counts": {
+    "drawn": 10000000,
+    "paired": 9399065,
+    "region_drawn": 7402955,
+    "region_paired": 7402955,
+    "reference_unresolved": 0,
+    "below_939_cutoff": 600935,
+    "above_floor_939_not_qualified": 0,
+    "above_floor_proposed_not_qualified": 0,
+    "above_floor_not_paired": 0,
+    "changed_paired": 7426253
+  },
+  "routing_counts": [
+    [
+      1419150,
+      7021,
+      10547,
+      5270531,
+      678,
+      202
+    ],
+    [
+      3053,
+      282755,
+      0,
+      166128,
+      0,
+      0
+    ],
+    [
+      1797,
+      0,
+      261531,
+      1966296,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      5325,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      4051
+    ]
+  ],
+  "averages": {
+    "overall": {
+      "points": 9399065,
+      "algorithm_939_mean_us": 0.9289214618688133,
+      "proposed_mean_us": 0.5097372823786197,
+      "speedup_ratio": 1.8223533847360107,
+      "speedup_percent": 82.23533847360108,
+      "totals_seconds": [
+        [
+          9.1842054,
+          5.038430450000001
+        ],
+        [
+          9.002102499999998,
+          4.98638235
+        ],
+        [
+          8.730993199999997,
+          4.791053850000002
+        ],
+        [
+          8.6570952,
+          4.756961750000001
+        ],
+        [
+          8.588915100000001,
+          4.734371349999999
+        ]
+      ]
+    },
+    "serr_region": {
+      "points": 7402955,
+      "algorithm_939_mean_us": 0.8386481479355201,
+      "proposed_mean_us": 0.32679688718896727,
+      "speedup_ratio": 2.5662672467580134,
+      "speedup_percent": 156.62672467580134,
+      "totals_seconds": [
+        [
+          6.53369575,
+          2.54960535
+        ],
+        [
+          6.408781000000001,
+          2.5151409500000006
+        ],
+        [
+          6.208474499999999,
+          2.419262650000001
+        ],
+        [
+          6.163493049999999,
+          2.4035362000000005
+        ],
+        [
+          6.138797800000001,
+          2.3915195500000004
+        ]
+      ]
+    }
+  },
+  "maxima": {
+    "overall": {
+      "screen": 496.1,
+      "point": [
+        7.710627400037479,
+        44.01893755402684,
+        2.8392794600849673
+      ],
+      "old": 0,
+      "new": 1,
+      "old_setting": 230,
+      "new_setting": 3,
+      "region": false,
+      "algorithm_939_method": "SE",
+      "proposed_method": "AF",
+      "algorithm_939_us": 187.2486328125,
+      "proposed_us": 0.33828125000000003,
+      "speedup": 553.5294457274827,
+      "samples_us": [
+        [
+          181.38984375,
+          0.33652343749999997
+        ],
+        [
+          187.71230468750002,
+          0.3337890625
+        ],
+        [
+          198.47109375000002,
+          0.34023437500000003
+        ],
+        [
+          184.62890625,
+          0.33828125000000003
+        ],
+        [
+          188.51445312500002,
+          0.3380859375
+        ],
+        [
+          192.904296875,
+          0.33945312499999997
+        ],
+        [
+          186.8390625,
+          0.33671874999999996
+        ],
+        [
+          181.610546875,
+          0.3390625
+        ],
+        [
+          187.2486328125,
+          0.3404296875
+        ]
+      ]
+    },
+    "serr_region": {
+      "screen": 12.285714285714288,
+      "point": [
+        41.97481359379223,
+        0.044307405249173294,
+        2.5942569412392116
+      ],
+      "old": 2,
+      "new": 3,
+      "old_setting": 0,
+      "new_setting": 1,
+      "region": true,
+      "algorithm_939_method": "NI",
+      "proposed_method": "SE-RR",
+      "algorithm_939_us": 1.4830078125,
+      "proposed_us": 0.2701171875,
+      "speedup": 5.490238611713665,
+      "samples_us": [
+        [
+          1.4839843750000001,
+          0.271875
+        ],
+        [
+          1.4853515625,
+          0.2701171875
+        ],
+        [
+          1.48984375,
+          0.27128906249999996
+        ],
+        [
+          1.4818359374999999,
+          0.26933593749999996
+        ],
+        [
+          1.4828125,
+          0.2697265625
+        ],
+        [
+          1.4828125,
+          0.2701171875
+        ],
+        [
+          1.48046875,
+          0.2697265625
+        ],
+        [
+          1.4830078125,
+          0.269921875
+        ],
+        [
+          1.4884765625,
+          0.271875
+        ]
+      ]
+    },
+    "remeasured": 256,
+    "wall_seconds": 104.9729095
+  },
+  "initial_reference_and_calibration_wall_seconds": 171.6721929,
+  "validation_seconds_on_resume": 1.1206038999999999,
+  "maximum_search_protocol": "All changed paired points screened with 3 trials of 8 evaluations per side; highest 128 overall and highest 128 in SE-RR region remeasured with 9 trials of 512 evaluations per side.",
+  "reference_accuracy_note": "Quadrature differences are empirical error estimates, not rigorous interval certificates. Q close to one uses an independent probability bound. C++ 80-bit results checked against arbitrary-precision defining integrals on archived and large-order/deep-tail cases."
+}

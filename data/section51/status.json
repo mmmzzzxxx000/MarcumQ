@@ -1,0 +1,16 @@
+{
+  "complete": true,
+  "evaluations": 57600,
+  "qualified": 48350,
+  "power_before": {
+    "ac_connected": true,
+    "battery_percent": 100,
+    "source": "GetSystemPowerStatus"
+  },
+  "power_after": {
+    "ac_connected": true,
+    "battery_percent": 100,
+    "source": "GetSystemPowerStatus"
+  },
+  "publication_timing_allowed": true
+}

@@ -1,0 +1,65 @@
+{
+  "counts": {
+    "drawn": 10000000,
+    "paired": 9399065,
+    "region_drawn": 7402955,
+    "region_paired": 7402955,
+    "reference_unresolved": 0,
+    "below_939_cutoff": 600935,
+    "above_floor_939_not_qualified": 0,
+    "above_floor_proposed_not_qualified": 0,
+    "above_floor_not_paired": 0,
+    "changed_paired": 7426253
+  },
+  "routing_counts": [
+    [
+      1419150,
+      7021,
+      10547,
+      5270531,
+      678,
+      202
+    ],
+    [
+      3053,
+      282755,
+      0,
+      166128,
+      0,
+      0
+    ],
+    [
+      1797,
+      0,
+      261531,
+      1966296,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      5325,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      4051
+    ]
+  ],
+  "validation_seconds": 1.1206038999999999
+}

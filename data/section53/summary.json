@@ -1,0 +1,247 @@
+{
+  "totals": {
+    "drawn": 100000000,
+    "admitted": 94671159,
+    "normal": 59239175,
+    "underflow": 35431984,
+    "invalid": 0,
+    "passed": 94671159,
+    "failed": 0,
+    "route_error": 0,
+    "passed_underflow": 35431984,
+    "flagged_large_bound": 0
+  },
+  "by_order_group": [
+    {
+      "group": 1,
+      "drawn": 25003385,
+      "admitted": 22474843,
+      "normal": 19789682,
+      "underflow": 2685161,
+      "invalid": 0,
+      "passed": 22474843,
+      "failed": 0,
+      "route_error": 0,
+      "passed_underflow": 2685161,
+      "flagged_large_bound": 0
+    },
+    {
+      "group": 2,
+      "drawn": 24991810,
+      "admitted": 22993534,
+      "normal": 20253635,
+      "underflow": 2739899,
+      "invalid": 0,
+      "passed": 22993534,
+      "failed": 0,
+      "route_error": 0,
+      "passed_underflow": 2739899,
+      "flagged_large_bound": 0
+    },
+    {
+      "group": 3,
+      "drawn": 24988935,
+      "admitted": 24186912,
+      "normal": 17461823,
+      "underflow": 6725089,
+      "invalid": 0,
+      "passed": 24186912,
+      "failed": 0,
+      "route_error": 0,
+      "passed_underflow": 6725089,
+      "flagged_large_bound": 0
+    },
+    {
+      "group": 4,
+      "drawn": 25015870,
+      "admitted": 25015870,
+      "normal": 1734035,
+      "underflow": 23281835,
+      "invalid": 0,
+      "passed": 25015870,
+      "failed": 0,
+      "route_error": 0,
+      "passed_underflow": 23281835,
+      "flagged_large_bound": 0
+    }
+  ],
+  "elapsed_seconds": 1300.429,
+  "reference": "Released Fortran Algorithm 939 marcum routine, called directly also for 0 < nu < 1",
+  "serr": "Current Fortran Algorithm 1; equivalent log-factor formula for nu > 100",
+  "target_relative_difference": 1e-10,
+  "tested_truncation_orders": [
+    1,
+    1000
+  ],
+  "random_generator": "GNU Fortran RANDOM_NUMBER; generated serially in arrays of shape (3,250000)",
+  "seed": [
+    20261109,
+    20365838,
+    20470567,
+    20575296,
+    20680025,
+    20784754,
+    20889483,
+    20994212
+  ],
+  "sampling": {
+    "a": [
+      0.01,
+      100
+    ],
+    "b": [
+      0.001,
+      7
+    ],
+    "nu": [
+      0.1,
+      1000
+    ],
+    "distribution": "independent log-uniform"
+  },
+  "region": "b <= 7 and B <= 1000; second formula used when M >= 0.998",
+  "underflow_handling": "Preserved 939 ierr=1 when P=0 and Q=1, used Q=1 in comparison; counted separately",
+  "parallel_check": [
+    {
+      "threads": 1,
+      "rows": [
+        {
+          "group": 1,
+          "drawn": 2474,
+          "admitted": 2218,
+          "normal": 1945,
+          "underflow": 273,
+          "invalid": 0,
+          "passed": 2218,
+          "failed": 0,
+          "route_error": 0,
+          "passed_underflow": 273,
+          "flagged_large_bound": 0
+        },
+        {
+          "group": 2,
+          "drawn": 2499,
+          "admitted": 2284,
+          "normal": 2012,
+          "underflow": 272,
+          "invalid": 0,
+          "passed": 2284,
+          "failed": 0,
+          "route_error": 0,
+          "passed_underflow": 272,
+          "flagged_large_bound": 0
+        },
+        {
+          "group": 3,
+          "drawn": 2543,
+          "admitted": 2467,
+          "normal": 1759,
+          "underflow": 708,
+          "invalid": 0,
+          "passed": 2467,
+          "failed": 0,
+          "route_error": 0,
+          "passed_underflow": 708,
+          "flagged_large_bound": 0
+        },
+        {
+          "group": 4,
+          "drawn": 2484,
+          "admitted": 2484,
+          "normal": 179,
+          "underflow": 2305,
+          "invalid": 0,
+          "passed": 2484,
+          "failed": 0,
+          "route_error": 0,
+          "passed_underflow": 2305,
+          "flagged_large_bound": 0
+        }
+      ],
+      "seconds": 0.734
+    },
+    {
+      "threads": 8,
+      "rows": [
+        {
+          "group": 1,
+          "drawn": 2474,
+          "admitted": 2218,
+          "normal": 1945,
+          "underflow": 273,
+          "invalid": 0,
+          "passed": 2218,
+          "failed": 0,
+          "route_error": 0,
+          "passed_underflow": 273,
+          "flagged_large_bound": 0
+        },
+        {
+          "group": 2,
+          "drawn": 2499,
+          "admitted": 2284,
+          "normal": 2012,
+          "underflow": 272,
+          "invalid": 0,
+          "passed": 2284,
+          "failed": 0,
+          "route_error": 0,
+          "passed_underflow": 272,
+          "flagged_large_bound": 0
+        },
+        {
+          "group": 3,
+          "drawn": 2543,
+          "admitted": 2467,
+          "normal": 1759,
+          "underflow": 708,
+          "invalid": 0,
+          "passed": 2467,
+          "failed": 0,
+          "route_error": 0,
+          "passed_underflow": 708,
+          "flagged_large_bound": 0
+        },
+        {
+          "group": 4,
+          "drawn": 2484,
+          "admitted": 2484,
+          "normal": 179,
+          "underflow": 2305,
+          "invalid": 0,
+          "passed": 2484,
+          "failed": 0,
+          "route_error": 0,
+          "passed_underflow": 2305,
+          "flagged_large_bound": 0
+        }
+      ],
+      "seconds": 0.197
+    }
+  ],
+  "compiler": "GNU Fortran 13.2.0",
+  "threads": 8,
+  "flags": [
+    "-O3",
+    "-fopenmp",
+    "-frecursive",
+    "-fno-fast-math",
+    "-ffp-contract=off"
+  ],
+  "source_hashes": {
+    "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-27\\new-chat\\work\\fortran_939_random_20261109\\validate.f90": "2c3d2cdf8902a3436e1b7a437ba199a2d6ec4e1d6091a7fc7fa97726e22a8853",
+    "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-27\\new-chat\\work\\fortran_939_random_20261109\\validate.exe": "3daf0c028997ed8402614a4f431efb1784f5768994933b733d79e2987bdeeb8b",
+    "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-27\\new-chat\\marcum-se-rr\\native\\fortran\\paper_algorithm1.f90": "fdc8765c8884499864e31837252d550bf1fc82907ca5cb68e8a3eb395344b463"
+  },
+  "official_source_hashes": {
+    "939/Doc/Makefile": "779eb67e0f56e5866d5f7db06bc39fe08928f954e96f007ab8f1be2d3a909e2a",
+    "939/Doc/README": "b02bc5c3830b21afd6d258b283c6963de1dfab211d6e777cbbf1d833d7f898ca",
+    "939/Fortran90/Src/marcumq.f90": "737bc21fb023723065c8b4e4284ee3dc4c67f393b3fd5c87c887f59184055d05",
+    "939/Fortran90/Src/incgam.f90": "5c73455b77a07a57ff0476951735c1a099cfe0b89a988478b2587ec18f2e0b19",
+    "939/Fortran90/Src/constants": "b57798ea7a48294a197d47e2cd915ab4e953d25c27b9e1467b7f40a6ba67203c",
+    "939/Fortran90/Src/cons.f90": "1f20b8041dd998ad9165cf0646f6e9a1df97c1d41bca2f0130df700db505984c",
+    "939/Fortran90/Drivers/outputQP.dat": "48bb23a7168bded4012ba5a1765f4478b4de86b2fc9522ab99631c5bd9fc61fa",
+    "939/Fortran90/Drivers/testmarq.f90": "21b863f38dc6e170c5a575c4cf90a6eb960f1c61667ebb84e4adcb3b51714738",
+    "939/939.head": "4d1c61827d528fe0f11742ac144e5fee8c2a894a948ceb3a292d75e86ba5d14a"
+  }
+}
